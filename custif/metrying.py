@@ -4,7 +4,14 @@ message = 'You like'
 
 
 # wrap connection in a float() to accept decimals as numbers
-answer = float(input("Whats the best original Mega Man game (1-11)?\n\nThe best one is: "))
+
+while True:
+    try:
+        answer = float(input("Whats the best original Mega Man game (1-11)?\n\nThe best one is: "))
+        break
+
+    except:
+        print("Choose a NUMBER dingus!")
 
 # Trying to use the entire word, or just the number
 if answer >= 12:
