@@ -26,18 +26,18 @@ elif answer == 8:
 	message = message + '...the Playstation one..?  Really?'
 elif answer == 7:
 	message = message + ' having more than 2 buttons.'
-elif answer == 6:
+elif answer <= 6 or answer >= 1:
 	message = message + ' it old school.'
-elif answer == 5:
-	message = message + ' it old school.'
-elif answer == 4:
-	message = message + ' it old school.'
-elif answer == 3:
-	message = message + ' it old school.'
-elif answer == 2:
-	message = message + ' it old school.'
-elif answer == 1:
-	message = message + ' it old school.'
+#elif answer == 5:
+#	message = message + ' it old school.'
+#elif answer == 4:
+#	message = message + ' it old school.'
+#elif answer == 3:
+#	message = message + ' it old school.'
+#elif answer == 2:
+#	message = message + ' it old school.'
+#elif answer == 1:
+#	message = message + ' it old school.'
 elif answer == 0:
         message = message + ' a great series, but not part of the original! Try again!\n\n░░░░░░░░▄▄▄▄░░░░░░░░\n░░░░░▄███░░███▄░░░░░\n░░░▄█████▄▄█████▄░░░\n░░░██████░░██████░░░\n░░█░█▀░░▀██▀░░▀█░█░░\n░░█░█░░██░░██░░█░█░░\n░░░▀█░░▄▄▄▄▄▄░░█▀░░░\n░░░░░▀▄▄▀▀▀▀▄▄▀░░░░░'
 else:
